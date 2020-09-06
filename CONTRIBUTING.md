@@ -46,7 +46,7 @@ If an issue already exists for what you want to work and it is unassigned, and i
 
 Letting us know which issue you want to work on before working on it helps to minimise the chances of duplicated work.
 
-If you have a new contributor (have not yet contributed to the project), we ask that you only request to be assigned to one issue. Only once your corresponding pull has been merged can you request to be assigned to other issues (more than one). The reason for this restriction is because we have had people ask to be assigned to an issue but then, for whatever reason, not work on it. We don't want to find ourselves in a situation where multiple issues are assigned to one person who then does not deliver. We want to keep our project alive at a good pace.
+If you are a new contributor (have not yet contributed to the project), we ask that you only request to be assigned to one issue. Only once your corresponding pull request has been merged can you request to be assigned to other issues (more than one). The reason for this restriction is because we have had people ask to be assigned to an issue but then, for whatever reason, not work on it. We don't want to find ourselves in a situation where multiple issues are assigned to one person who then does not deliver. We want to keep our project alive at a good pace.
 
 ### Discuss your implementation approach
 
@@ -62,7 +62,7 @@ Please follow the process below:
 2. Discuss your implementation approach with us
 3. Fork the repository
 4. Create a new branch off master (unless the corresponding issue says otherwise). Your branch should have a descriptive branch name (that corresponds to the relevant issue) and include the issue number (e.g. `add-styleguide-1048`)
-5. Bring your branch level with the branch you're going to be branching into before submitting a pull request (we recommend rebasing)
+5. Bring your branch level with the branch you're going to be merging into before submitting a pull request (we recommend rebasing)
   - i.e. if you're going to be branch off `master`, then rebase new changes from master onto your branch
 6. Submit a pull request to merge into the branch specified on the issue (or master if a branch is not specified)
 
@@ -106,7 +106,7 @@ We expect you to resolve any merge conflicts that appear when you have a pull re
   
 ## Stale issues & pull requests
 
-If you have been assigned to an issue and we have not heard back to you for a week (either through a message or seeing a pull request you made), we will send a friendly message asking whether everything is OK and whether you need a hand. If you need more time, the work is non-urgent and is not blocking anyone, that's completely fine, just let us know. 
+If you have been assigned to an issue and we have not heard back from you for a week (either through a message or seeing a pull request you made), we will send a friendly message asking whether everything is OK and whether you need a hand. If you need more time, the work is non-urgent and is not blocking anyone, that's completely fine, just let us know. 
 If possible, try to let us know how long it will take you to submit a ready-to-review pull request. If we have not heard back from you one week after our friendly reminder (i.e. two weeks after you were first assigned to the issue), we will unassign you from the issue. This is so that we can assign someone else to the issue. 
 
 Pull requests are similar. We will send a friendly reminder after one week of receiving the pull request or receiving your last message. If we don't hear back from you, we will close the pull request and label it as [stale](https://github.com/knjk04/book-project/labels/stale).
